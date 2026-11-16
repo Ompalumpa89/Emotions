@@ -1,0 +1,184 @@
+{
+  "parts": {
+    "01_Hus_og_front.stl": {
+      "watertight": true,
+      "consistent_normals": true,
+      "connected_solids": 1,
+      "triangles": 11290,
+      "bounds_mm": [
+        [
+          -41.0,
+          -63.0,
+          0.0
+        ],
+        [
+          41.0,
+          63.0,
+          33.6
+        ]
+      ],
+      "dimensions_mm": [
+        82.0,
+        126.0,
+        33.6
+      ],
+      "volume_cm3": 74.78
+    },
+    "02_Baklokk.stl": {
+      "watertight": true,
+      "consistent_normals": true,
+      "connected_solids": 1,
+      "triangles": 7582,
+      "bounds_mm": [
+        [
+          -41.0,
+          -63.0,
+          0.0
+        ],
+        [
+          41.0,
+          63.0,
+          6.4
+        ]
+      ],
+      "dimensions_mm": [
+        82.0,
+        126.0,
+        6.4
+      ],
+      "volume_cm3": 26.707
+    },
+    "03_Lysdiffusor.stl": {
+      "watertight": true,
+      "consistent_normals": true,
+      "connected_solids": 1,
+      "triangles": 1024,
+      "bounds_mm": [
+        [
+          -33.25,
+          -33.25,
+          0.0
+        ],
+        [
+          33.25,
+          57.25,
+          1.2
+        ]
+      ],
+      "dimensions_mm": [
+        66.5,
+        90.5,
+        1.2
+      ],
+      "volume_cm3": 3.383
+    },
+    "04_Provebit_knapp_og_passning.stl": {
+      "watertight": true,
+      "consistent_normals": true,
+      "connected_solids": 1,
+      "triangles": 912,
+      "bounds_mm": [
+        [
+          -17.0,
+          -13.0,
+          0.0
+        ],
+        [
+          17.0,
+          13.0,
+          3.0
+        ]
+      ],
+      "dimensions_mm": [
+        34.0,
+        26.0,
+        3.0
+      ],
+      "volume_cm3": 2.128
+    },
+    "05_Provebit_innlegg.stl": {
+      "watertight": true,
+      "consistent_normals": true,
+      "connected_solids": 1,
+      "triangles": 12,
+      "bounds_mm": [
+        [
+          8.25,
+          -7.25,
+          0.0
+        ],
+        [
+          11.75,
+          7.25,
+          1.2
+        ]
+      ],
+      "dimensions_mm": [
+        3.5,
+        14.5,
+        1.2
+      ],
+      "volume_cm3": 0.061
+    }
+  },
+  "assembly_overlap_mm3": {
+    "hus/baklokk": 0.0,
+    "hus/diffusor": 0.0,
+    "baklokk/diffusor": 0.0
+  },
+  "functional_checks": {
+    "screen_clearance_obstruction_mm3": 0,
+    "button_clearance_obstruction_mm3": 0,
+    "pcb_envelope_obstruction_mm3": 0,
+    "led_left_obstruction_mm3": 0,
+    "led_right_obstruction_mm3": 0,
+    "led_top_obstruction_mm3": 0,
+    "led_bottom_obstruction_mm3": 0.0,
+    "usb_aperture_obstruction_mm3": 0
+  },
+  "parameters_mm": {
+    "width": 82.0,
+    "height": 126.0,
+    "depth": 36.0,
+    "corner_radius": 8.0,
+    "front_edge_radius": 1.4,
+    "wall": 2.4,
+    "front_structure_depth": 9.3,
+    "back_thickness": 2.4,
+    "skirt_depth": 4.0,
+    "fit_clearance_per_side": 0.3,
+    "skirt_wall": 1.6,
+    "display_center_y": 12.0,
+    "display_window_w": 33.5,
+    "display_window_h": 43.5,
+    "display_pocket_w": 41.5,
+    "display_pocket_h": 66.5,
+    "display_front_lip": 2.0,
+    "button_center_y": -48.0,
+    "button_hole_d": 12.3,
+    "button_nut_clearance_d": 22.0,
+    "button_panel_thickness": 2.4,
+    "led_outer_w": 67.0,
+    "led_outer_h": 91.0,
+    "led_outer_r": 8.0,
+    "led_inner_w": 45.0,
+    "led_inner_h": 69.0,
+    "led_inner_r": 4.0,
+    "led_channel_depth": 7.5,
+    "diffuser_thickness": 1.2,
+    "diffuser_clearance_per_side": 0.25,
+    "usb_center_y": -27.0,
+    "usb_center_depth": 22.0,
+    "usb_opening_y": 14.0,
+    "usb_opening_depth": 8.0,
+    "boss_radius": 4.0,
+    "boss_x": 33.5,
+    "boss_y": 55.5,
+    "screw_pilot_d": 2.0,
+    "screw_clearance_d": 2.8,
+    "screw_head_d": 5.5,
+    "pilot_depth": 9.0
+  },
+  "physical_test_printed": false,
+  "design_version": "3.0.0"
+}
